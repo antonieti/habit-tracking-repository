@@ -10,7 +10,7 @@ public interface TaskRepository {
 
     public void remove(Task task);
 
-    public Task search(Task task);
+    public Task searchByName(String name);
 
-    public List<Task> getAll(Task task);
+    public List<Task> getAll();
 }

@@ -12,7 +12,7 @@ public interface HabitRepository {
 
     public void remove(Habit habit);
 
-    public Habit search(Habit habit);
+    public Habit searchByName(String name);
 
-    public List<Habit> getAll(Habit habit);
+    public List<Habit> getAll();
 }
