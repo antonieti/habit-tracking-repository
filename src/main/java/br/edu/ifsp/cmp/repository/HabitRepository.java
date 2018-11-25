@@ -6,7 +6,9 @@ import br.edu.ifsp.cmp.entities.Habit;
 
 public interface HabitRepository {
 
-    public void insert(Habit habit);
+    public String insert(Habit habit);
+
+    public String update(Habit habit);
 
     public void remove(Habit habit);
 

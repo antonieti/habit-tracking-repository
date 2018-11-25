@@ -6,7 +6,7 @@ import br.edu.ifsp.cmp.entities.Task;
 
 public interface TaskRepository {
 
-    public void insert(Task task);
+    public String insert(Task task);
 
     public void remove(Task task);
 
